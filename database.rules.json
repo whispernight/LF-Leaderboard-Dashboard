@@ -1,0 +1,66 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": false,
+    "exercisers": {
+      ".read": true,
+    			".write": false,
+      "Angel":{
+        ".read": true,
+    			".write": false
+      },
+         "Drew":{
+        ".read": true,
+    			".write": true
+      },
+         "Eddie":{
+        ".read": true,
+    			".write": true
+      },
+         "Jonathan":{
+        ".read": true,
+    			".write": true
+      },
+         "Kim":{
+        ".read": true,
+    			".write": true
+      },
+      "historicData":{
+        ".read": true,
+    			".write": false,
+            "Angel":{
+        			".read": true,
+    					".write": false
+      },
+                 "Drew":{
+        ".read": true,
+    			".write": true
+      },
+         "Eddie":{
+        ".read": true,
+    			".write": true
+      },
+         "Jonathan":{
+        ".read": true,
+    			".write": true
+      },
+         "Kim":{
+        ".read": true,
+    			".write": true
+      },
+      }
+    },
+    "exercises" : {
+    	".write" : true,
+        ".indexOn": ["exerciseName"]
+    },
+        "exercisesMax" : {
+    	".write" : true,
+        "Records": {
+        "scores": {
+      ".indexOn": ".value"
+        }
+    }
+    }
+  }
+}
